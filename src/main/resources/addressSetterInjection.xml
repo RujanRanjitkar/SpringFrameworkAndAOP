@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    ">
+
+    <bean class="simpleDemo.Address" name="Rujan">
+        <property name="street" value="balaju"/>
+        <property name="city" value="kathmandu"/>
+        <property name="country" value="Nepalaya"/>
+    </bean>
+
+    <bean class="simpleDemo.Address" name="Babulal">
+        <property name="street" value="kalanki"/>
+        <property name="city" value="kathmandu"/>
+        <property name="country" value="Nepal"/>
+    </bean>
+</beans>
